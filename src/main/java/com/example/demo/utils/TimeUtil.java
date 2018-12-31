@@ -96,4 +96,5 @@ public class TimeUtil {
         s.append(str.substring(5,7));
         return String.valueOf(s);
     }
+
 }
