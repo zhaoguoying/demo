@@ -7,7 +7,6 @@ package com.example.demo.constant;
  */
 
 public class RoleConstant {
-
     /**
      * 普通用户
      */
