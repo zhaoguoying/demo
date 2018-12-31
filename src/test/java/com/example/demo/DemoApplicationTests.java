@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.mapper.ArticleMapper;
+import com.example.demo.mapper.CommentMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,15 +13,20 @@ import javax.annotation.Resource;
 @SpringBootTest
 public class DemoApplicationTests {
 	@Resource
-	public ArticleMapper h;
+	public ArticleMapper ArticleMapper;
+	public CommentMapper l;
 	@Test
 	public void contextLoads() {
 		System.out.println();
 	}
 	@Test
     public void h(){
-	    System.out.println("\n\n\n\n"+h.findArticleById(1).getArticleCategories()+"\n\n\n\n");
+	    System.out.println("\n\n\n\n"+ArticleMapper.findArticleById(1).getArticleCategories()+"\n\n\n\n");
     }
+	@Test
+    public void h2(){
+
+	}
 
 }
 
