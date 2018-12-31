@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import com.example.demo.mapper.ArchiveMapper;
 import com.example.demo.mapper.ArticleMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
