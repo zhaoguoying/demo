@@ -7,5 +7,5 @@ package com.example.demo.constant;
  */
 
 public class SiteOwner {
-    String SITE_OWNER = "赵国应";
+    String SITE_OWNER = "张海洋";
 }

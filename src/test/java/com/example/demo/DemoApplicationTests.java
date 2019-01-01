@@ -1,8 +1,6 @@
 package com.example.demo;
 
 import com.example.demo.mapper.*;
-import com.example.demo.utils.TimeUtil;
-import com.example.demo.utils.TransCodingUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,8 +19,6 @@ public class DemoApplicationTests {
     @Resource
     public TagMapper l;
 
-    @Resource
-    public TransCodingUtil transCodingUtil;
     @Test
     public void contextLoads() {
         System.out.println();
@@ -40,7 +36,7 @@ public class DemoApplicationTests {
 
     @Test
     public void h3() {
-
+        System.out.println("commentService.commentNum():");
     }
 }
 

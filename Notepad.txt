@@ -1,0 +1,11 @@
+此文本用于写一些在做项目中的学习：
+@Service 用于标注业务层组件
+@Controller 用于标注控制层组件（如struts中的action）
+@Repository 用于标注数据访问组件，即DAO组件
+@Component 泛指组件，当组件不好归类的时候，我们可以使用这个注解进行标注。
+@Data 注解在类上时，简化java代码编写，为该类提供读写(get,set等等)属性，还提供了equals(),hashCode(),toString()方法
+@mapper 注解为了不再写映射的xml文件
+@RestController 整个类所有方法不再返回视图页面,全部返回方法中定义的返回内容,比如json:
+@SuppressWarnings("all") 屏蔽所以警告
+@Transactional 声明式事务管理
+@AuthenticationPrincipal 安全验证线程问题

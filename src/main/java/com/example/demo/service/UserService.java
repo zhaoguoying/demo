@@ -10,6 +10,7 @@ import com.example.demo.model.User;
 import net.sf.json.JSONObject;
 import org.springframework.transaction.annotation.Transactional;
 
+
 public interface UserService {
 
     /**
