@@ -13,9 +13,8 @@ import java.util.List;
  * 时间：2018-12-31 12:23
  * 描述：反馈sql
  */
-
-@Repository
 @Mapper
+@Repository
 public interface FeedBackMapper {
 
     @Insert("insert into feedback(feedbackContent,contactInfo,personId,feedbackDate) values(#{feedbackContent},#{contactInfo},#{personId},#{feedbackDate})")

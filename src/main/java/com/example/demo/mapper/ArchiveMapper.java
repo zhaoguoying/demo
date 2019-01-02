@@ -18,6 +18,9 @@ import java.util.List;
 @Repository
 public interface ArchiveMapper {
 
+    /*
+     * [2018年08月, 2018年07月]
+     */
     @Select("select archiveName from archives order by id desc")
     List<String> findArchives();
 

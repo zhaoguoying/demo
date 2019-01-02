@@ -9,3 +9,6 @@
 @SuppressWarnings("all") 屏蔽所以警告
 @Transactional 声明式事务管理
 @AuthenticationPrincipal 安全验证线程问题
+@Override 重写方法
+@Autowired 注释，它可以对类成员变量、方法及构造函数进行标注，完成自动装配的工作。 通过 @Autowired的使用来消除 set ，get方法
+@Configuration 配置文件

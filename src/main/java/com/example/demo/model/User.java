@@ -2,7 +2,6 @@ package com.example.demo.model;
 
 import lombok.Data;
 
-import javax.management.relation.Role;
 import java.util.List;
 /*
 @Data注解在类上时，简化java代码编写，为该类提供读写(get,set等等)属性，还提供了equals(),hashCode(),toString()方法

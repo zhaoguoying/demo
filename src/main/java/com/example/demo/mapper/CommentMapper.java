@@ -11,8 +11,8 @@ import java.util.List;
  * 时间：2018-12-31 12:18
  * 描述：评论sql
  */
-@Repository
 @Mapper
+@Repository
 public interface CommentMapper {
 
     @Insert("insert into comment_record(articleId,originalAuthor,pId,answererId,respondentId,commentDate,likes,commentContent)" +

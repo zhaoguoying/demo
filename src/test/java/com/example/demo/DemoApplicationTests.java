@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 @SpringBootTest
 public class DemoApplicationTests {
     @Resource
-    public ArticleMapper ArticleMapper;
+    public ArchiveMapper ArchiveMapper;
     /*
      * 每一个测试又要加这个，否则空指针异常，没办法自动加载
      */
@@ -26,7 +26,7 @@ public class DemoApplicationTests {
 
     @Test
     public void h() {
-        System.out.println("\n" + ArticleMapper.findArticleById(1).getArticleCategories() + "\n");
+        System.out.println("\n" + ArchiveMapper.findArchives()+ "\n");
     }
 
     @Test
